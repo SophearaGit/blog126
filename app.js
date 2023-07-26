@@ -2,7 +2,7 @@ const express = require('express');
 const upload = require('express-fileupload');
 const userRoutes = require('./routes/userRoutes');
 const adminRoutes = require('./routes/adminRoutes');
-require('dotenv').config()
+require('dotenv').config();
 
 const app = express();
 
